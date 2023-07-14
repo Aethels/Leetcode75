@@ -1,20 +1,11 @@
-# Sample Codes for every week topics
+# Sample Codes for LeetBLIND 75 Problems
 
-This repository contains sample codes of different algorithms and data structures in different languages(Python, C, Java etc.). Each folder represents a topic. Feel free to contribute ^^
+* two_sum -> use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;
 
-## Includes:
-* Week 1 - Binary Search(Recursive/Iterative)
-* Week 1 - Quick Sort(Recursive/Iterative)
-* Week 1 - Bubble Sort(Recursive/Iterative)
-* Week 1 - Merge Sort
-* Week 1 - Insertion Sort
-* Week 1 - Memoization Techniques
- 
- <hr>
+* valid_parenthesis -> push opening brace on stack, pop if matching close brace, at end if stack empty, return true;
 
-* Week 1 - Data Structures Samples(LinkedList,Graph,Tree)
-* Week 1 - Data Structures Samples(Pointers)
+* merge_two_sorted_linkedlists -> insert each node from one list into the other
 
- <hr>
+* best_time_for_buy_and_sell -> find local min and search for local max, sliding window;
 
-* Week 1 - OOP Sample(Encapsulation,Inheritance,Abstraction,Polymorphism)
+* valid_palindrome -> left, right pointers, update left and right until each points at alphanum, compare left and right, continue until left >= right, don’t distinguish between upper/lowercase;
