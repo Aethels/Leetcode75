@@ -1,6 +1,6 @@
 # Sample Codes for LeetBLIND 75 Problems
 
-* <a href="(https://github.com/Aethels/Leetcode75/blob/main/two_sum.py)">two_sum</a> -> use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;
+* [two_sum](https://github.com/Aethels/Leetcode75/blob/main/two_sum.py)-> use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;
 
 * valid_parenthesis -> push opening brace on stack, pop if matching close brace, at end if stack empty, return true;
 
