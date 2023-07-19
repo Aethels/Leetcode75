@@ -14,7 +14,7 @@
 
 * [valid_anagram](https://github.com/Aethels/Leetcode75/blob/main/valid_anagram.py) -> hashmap to count each char in str1, decrement for str2
 
-* [binary_search](https://github.com/Aethels/Leetcode75/blob/main/binary_search.py) -> Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1
+* [binary_search](https://github.com/Aethels/Leetcode75/blob/main/binary_search.py) -> array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1
 
 * [flood_fill](https://github.com/Aethels/Leetcode75/blob/main/flood_fill.py) ->  m x n integer grid image where image[i][j] represents the pixel value of the image, three integers sr, sc, and color. perform a flood fill on the image starting from the pixel image[sr][sc] accourding the directions
 
