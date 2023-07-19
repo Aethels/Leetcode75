@@ -26,11 +26,11 @@ class Solution:
     
         return dummy.next
     
-    # Create some sample linked lists
+    
     list1 = ListNode(1, ListNode(5, ListNode(8)))
     list2 = ListNode(3, ListNode(6, ListNode(7)))
 
-    # Print the values of the lists
+    
     def printList(head):
         while head:
             print(head.val, end=" ")
@@ -42,7 +42,7 @@ class Solution:
     print("List 2:")
     printList(list2)
 
-# Merge the lists and print the result
+
     merged = mergeTwoLists(list1, list2)
     print("Merged list:")
     printList(merged)

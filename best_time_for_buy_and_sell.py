@@ -2,13 +2,13 @@ import random
 
 prices = random.sample(range(1, 100), 10)
 print(prices)
+
 min_price = prices[0]
 max_profit = 0
 buy_day = 0
 sell_day = 0
 
 for i, price in enumerate(prices):
-  
     if price < min_price:
         min_price = price
         buy_day = i
